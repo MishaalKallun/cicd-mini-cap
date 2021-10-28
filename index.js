@@ -12,7 +12,7 @@ app.use(cors())
 
 app.post('/', (req, res)=>{
   result = req.body;
-  res.send(result)
+  console.log(result)
 });
 
 
